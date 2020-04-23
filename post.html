@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./CSS/utilities.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Post 1</title>
+</head>
+
+<body id="home">
+  <header class="hero blog">
+    <div id="navbar" class="navbar top">
+      <div class="logo">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-tech"></i> Ex</span>Ops
+        </h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#cases">Cases</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="content">
+      <h1>Blog</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="post">
+      <h2>Blog Post One</h2>
+      <p class="meta">
+        <i class="fas fa-user"></i> Posted By <strong>John Doe</strong> | April 19 2020
+      </p>
+      <img src="/image_resources/blog/blog1.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores ut consectetur quidem magni sunt
+        recusandae doloribus sed quas dolor illo?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est praesentium incidunt impedit eos tenetur facilis
+        tempore accusamus vero, ex nostrum itaque dolore odit quia molestiae. Quam eos est dolorum rem? Sed totam hic
+        doloremque dicta expedita et odio doloribus molestiae dolorem consequatur facere ducimus omnis cumque
+        laboriosam, culpa quibusdam alias aspernatur tempore, eius ex soluta sint rerum! Adipisci, iusto ea.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias debitis id atque nisi sunt accusamus ullam
+        voluptates dignissimos magni. Consectetur tempore, quia doloremque natus animi reprehenderit facilis, delectus
+        deleniti alias ipsum sapiente molestiae, expedita voluptatem consequuntur ratione a rerum voluptas. Fugit sit id
+        odit voluptas assumenda nobis provident pariatur quam.</p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - Executive Operations Ltd</p>
+  </footer>
+
+  <script>
+    const navbar = document.getElementById('navbar');
+    let scrolled = false;
+
+    window.onscroll = function () {
+      if (window.pageYOffset > 100) {
+        navbar.classList.remove('top');
+        if (!scrolled) {
+          navbar.style.transform = 'translateY(-70px)';
+        }
+        setTimeout(function () {
+          navbar.style.transform = 'translateY(0px)';
+          scrolled = true;
+        }, 200);
+      } else {
+        navbar.classList.add('top')
+        scrolled = false;
+      }
+    };
+  </script>
+</body>
+
+</html>
