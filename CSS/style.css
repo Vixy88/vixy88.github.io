@@ -63,7 +63,7 @@ img {
 }
 
 .navbar a:hover {
-  border-bottom: #799179 2px solid;
+  border-bottom: #FF894E 2px solid;
 }
 
 .navbar ul {
@@ -77,7 +77,7 @@ img {
 /* Header */
 
 .hero {
-  background: url('../images/home//photo-1587375173166-65b2fa3cf1a6.jpeg') no-repeat center center/cover;
+  background: url('../images/home/photo-1587375173166-65b2fa3cf1a6.jpeg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: white;
@@ -136,7 +136,7 @@ img {
 }
 
 .icons i {
-  background-color: #799179;
+  background-color: #FF894E;
   color: #fff;
   padding: 1rem;
   border-radius: 50%;
@@ -175,7 +175,7 @@ img {
 }
 
 .callback-form input:focus {
-  outline-color: #799179;
+  outline-color: #FF894E;
 }
 
 .callback-form .btn {
@@ -222,7 +222,7 @@ img {
 }
 
 footer a:hover {
-  color: #799179;
+  color: #FF894E;
 }
 
 .footer .social > * {

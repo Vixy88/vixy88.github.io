@@ -1,11 +1,11 @@
 /* Text Colors */
 
 .text-primary {
-  color: #799179;
+  color: #FF894E;
 }
 
 .text-secondary {
-  color: #FF7A4E;
+  color: #4F6D7A;
 }
 
 /* Button */
@@ -15,7 +15,7 @@
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
-  background-color: #799179;
+  background-color: #FF894E;
   border: none;
   border-radius: 5px;
 }
@@ -25,11 +25,11 @@
 }
 
 .btn-primary, .bg-primary {
-  background: #799179;
+  background: #FF894E;
   color: #fff;
 }
 .btn-secondary, .bg-secondary {
-  background: #FF7A4E;
+  background: #4F6D7A;
   color: #fff;
 }
 .btn-dark, .bg-dark {
