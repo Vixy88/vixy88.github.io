@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "Hyrdle New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: hyrdle.com/success.html');
+    header('Location: www.hyrdle.com/success');
   }
