@@ -1,290 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/lightbox.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/utilities.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Home | Hyrdle</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./CSS/lightbox.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./CSS/utilities.css">
-  <link rel="stylesheet" href="./CSS/style.css">
-  <title>Home | Hyrdle</title>
-</head>
-
-<body id="home">
-  <header class="hero">
-    <div id="navbar" class="navbar top">
-      <div class="logo">
-        <a href="#home" style="border-bottom: none;">
-          <h1 class="logo">
-            <span class="text-primary"><i class="fas fa-tech"></i> Hy</span>rdle - Digital Agency
-          </h1>
-        </a>
+  <body id="home">
+    <header class="hero">
+      <div id="navbar" class="navbar top">
+        <div class="">
+          <a href="/" id="header__logo">
+            <img src="/images/logo/hyrdlelogowhite.png" alt="Hyrdle" />
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a class="header__button" href="#home">Home</a></li>
+            <li><a class="header__button" href="#about">About</a></li>
+            <li><a class="header__button" href="#cases">Cases</a></li>
+            <li><a class="header__button" href="#blog">Blog</a></li>
+            <li><a class="header__button" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#cases">Cases</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
 
-    <div class="content">
-      <h1>The Sky Is The Limit</h1>
-      <p>We Provide Experienced Digital Consulting</p>
-      <a href="#about" class="btn"><i class="fas fa-chevron-right"></i> Learn More</a>
-    </div>
-  </header>
-
-  <main>
-    <!-- About Icons -->
-    <section id="about" class="icons bg-light">
-      <div class="flex-items">
-        <div>
-          <i class="fas fa-file-code fa-2x"></i>
-          <div>
-            <h3>Web Development</h3>
-            <p>We design and develop innovative, exciting and
-              results-driven web experiences.</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-rocket fa-2x"></i>
-          <div>
-            <h3>App Development</h3>
-            <p>At Hyrdle we support you with app development from idea conception, design, development and launch.</p>
-          </div>
-        </div>
-        <div>
-          <i class="fas fa-pencil-alt fa-2x"></i>
-          <div>
-            <h3>E-Commerce</h3>
-            <p>We help you build beautiful online stores whether it is a custom development or on e-commerce platforms
-              such as, Shopify, Wix and Magento.</p>
-          </div>
-        </div>
+      <div class="content">
+        <h1>The Sky Is The Limit</h1>
+        <p>We Provide Experienced Digital Consulting</p>
+        <a href="#about" class="btn"
+          ><i class="fas fa-chevron-right"></i> Learn More</a
+        >
       </div>
-    </section>
-    <!-- About Solutions -->
-    <section class="solutions flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="/images/home/people.jpg" alt="people">
+    </header>
+
+    <main>
+      <!-- About Icons -->
+      <section id="about" class="icons bg-light">
+        <div class="flex-items">
+          <div>
+            <i class="fas fa-file-code fa-2x"></i>
+            <div>
+              <h3>Web Development</h3>
+              <p>
+                We design and develop innovative, exciting and results-driven
+                web experiences.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-rocket fa-2x"></i>
+            <div>
+              <h3>App Development</h3>
+              <p>
+                At Hyrdle we support you with app development from idea
+                conception, design, development and launch.
+              </p>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-pencil-alt fa-2x"></i>
+            <div>
+              <h3>E-Commerce</h3>
+              <p>
+                We help you build beautiful online stores whether it is a custom
+                development or on e-commerce platforms such as, Shopify, Wix and
+                Magento.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="column-2 bg-primary">
-            <h4>What you are looking for</h4>
-            <h2>We provide bespoke solutions</h2>
-            <p>For web, desktop and mobile applications as well as popular content management platforms such as
-              Wordpress, Shopify and others. <br>Other services
-              include:<br>
-              <li>UX & UI Design</li>
-              <li>Digital Marketing</li>
-              <li>Project Management</li>
+      </section>
+      <!-- About Solutions -->
+      <section class="solutions flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="/images/home/people.jpg" alt="people" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-primary">
+              <h4>What you are looking for</h4>
+              <h2>We provide bespoke solutions</h2>
+              <p>
+                For web, desktop and mobile applications as well as popular
+                content management platforms such as Wordpress, Shopify and
+                others. <br />Other services include:<br />
+                <li>UX & UI Design</li>
+                <li>Digital Marketing</li>
+                <li>Project Management</li>
+              </p>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Get in Touch
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            </p>
-            <a href="#contact" class="btn btn-outline">
-              <i class="fas fa-chevron"></i>
-              Get in Touch
+      <!-- Cases -->
+      <section id="cases" class="cases flex-grid section-padding">
+        <header class="section-header">
+          <h4>This is what we do</h4>
+          <h2>Featured Clients</h2>
+          <p>
+            From Olympic Weightlifting Organistations to Leading Fire Protection
+            Companies. We love a challenge!
+          </p>
+        </header>
+        <div class="row">
+          <div class="column">
+            <a
+              href="/images/cases/CLM.png"
+              data-lightbox="cases"
+              data-title="CLM Group is the market-leading Passive Fire Protection specialist business, founded over 30 years ago"
+            >
+              <img src="/images/cases/CLM.png" alt="casestudy" />
+            </a>
+            <a
+              href="/images/cases/complianceplus.png"
+              data-lightbox="cases"
+              data-title="Compliance Plus is a highly respected compliance consultancy in the construction sector"
+            >
+              <img src="/images/cases/complianceplus.png" alt="casestudy" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="/images/cases/emmatutill2.png"
+              data-lightbox="cases"
+              data-title="Emma Tutill is a high end interior design company based in London"
+            >
+              <img src="/images/cases/emmatutill2.png" alt="casestudy" />
+            </a>
+            <a
+              href="/images/cases/Emson Haig.png"
+              data-lightbox="cases"
+              data-title="Emson Haig is a successfull retailer who has been running since 1992 and has now gone digital using Shopify"
+            >
+              <img src="/images/cases/Emson Haig.png" alt="casestudy" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="/images/cases/fitness.png"
+              data-lightbox="cases"
+              data-title="Europa Weightlifting Club is one of the most succesfull weightlifting gyms in the UK"
+            >
+              <img src="/images/cases/fitness.png" alt="casestudy" />
+            </a>
+            <a
+              href="/images/cases/wood company.png"
+              data-lightbox="cases"
+              data-title="Complete Construction is a building company in the south of UK who needed a small but fast website"
+            >
+              <img src="/images/cases/wood company.png" alt="casestudy" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="/images/cases/consultancy.png"
+              data-lightbox="cases"
+              data-title="Blueprint Talent Solutions was a recruitment company for enterprise companies"
+            >
+              <img src="/images/cases/consultancy.png" alt="casestudy" />
+            </a>
+            <a
+              href="/images/cases/Mirox.png"
+              data-lightbox="cases"
+              data-title="Mirox is another client from the construction sector who wanted a new but simple website to promote their brand"
+            >
+              <img src="/images/cases/Mirox.png" alt="casestudy" />
             </a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Cases -->
-    <section id="cases" class="cases flex-grid section-padding">
-      <header class="section-header">
-        <h4>This is what we do</h4>
-        <h2>Featured Clients</h2>
-        <p>From Olympic Weightlifting Organistations to Leading Fire Protection Companies. We love a challenge!</p>
-      </header>
-      <div class="row">
-        <div class="column">
-          <a href="/images/cases/CLM.png" data-lightbox="cases"
-            data-title='CLM Group is the market-leading Passive Fire Protection specialist business, founded over 30 years ago'>
-            <img src="/images/cases/CLM.png" alt="casestudy">
-          </a>
-          <a href="/images/cases/complianceplus.png" data-lightbox="cases"
-            data-title='Compliance Plus is a highly respected compliance consultancy in the construction sector'>
-            <img src="/images/cases/complianceplus.png" alt="casestudy">
-          </a>
-        </div>
-        <div class="column">
-          <a href="/images/cases/emmatutill2.png" data-lightbox="cases"
-            data-title='Emma Tutill is a high end interior design company based in London'>
-            <img src="/images/cases/emmatutill2.png" alt="casestudy">
-          </a>
-          <a href="/images/cases/Emson Haig.png" data-lightbox="cases"
-            data-title='Emson Haig is a successfull retailer who has been running since 1992 and has now gone digital using Shopify'>
-            <img src="/images/cases/Emson Haig.png" alt="casestudy">
-          </a>
-        </div>
-        <div class="column">
-          <a href="/images/cases/fitness.png" data-lightbox="cases"
-            data-title='Europa Weightlifting Club is one of the most succesfull weightlifting gyms in the UK'>
-            <img src="/images/cases/fitness.png" alt="casestudy">
-          </a>
-          <a href="/images/cases/wood company.png" data-lightbox="cases"
-            data-title='Complete Construction is a building company in the south of UK who needed a small but fast website'>
-            <img src="/images/cases/wood company.png" alt="casestudy">
-          </a>
-        </div>
-        <div class="column">
-          <a href="/images/cases/consultancy.png" data-lightbox="cases"
-            data-title='Blueprint Talent Solutions was a recruitment company for enterprise companies'>
-            <img src="/images/cases/consultancy.png" alt="casestudy">
-          </a>
-          <a href="/images/cases/Mirox.png" data-lightbox="cases"
-            data-title='Mirox is another client from the construction sector who wanted a new but simple website to promote their brand'>
-            <img src="/images/cases/Mirox.png" alt="casestudy">
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Blog -->
-    <section id="blog" class="blog flex-columns" class="flex-reverse">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="/images/home/blog.jpg" alt="people">
+      <!-- Blog -->
+      <section id="blog" class="blog flex-columns" class="flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="/images/home/blog.jpg" alt="people" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-secondary">
+              <h4>April 16 2020</h4>
+              <h2>The Basics of Digital Transformation</h2>
+              <p>
+                In 2015 John Chambers Executive Chairman of Cisco System said
+                “At least 40% of all businesses will die in the next 10 years…
+                if they don’t figure out how to ...
+              </p>
+              <a href="post.html" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read Our Blog
+              </a>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="column-2 bg-secondary">
-            <h4>April 16 2020</h4>
-            <h2>The Basics of Digital Transformation</h2>
-            <p>In 2015 John Chambers Executive Chairman of Cisco System said “At least 40% of all businesses will die in
-              the next 10 years… if they don’t figure out how to ...</p>
-            <a href="post.html" class="btn btn-outline">
-              <i class="fas fa-chevron"></i>
-              Read Our Blog
-            </a>
+      </section>
+
+      <!-- TEAM -->
+
+      <section id="team" class="team section-padding">
+        <header class="section-header">
+          <h4>Who we are</h4>
+          <h2>Our Professional Team</h2>
+          <p>
+            We have a diverse and experienced leadership team who have been
+            successfull in numerous different companies and industries, giving
+            us the perfect foundation to support our customers.
+          </p>
+        </header>
+        <div class="flex-items">
+          <div>
+            <img src="/images/team/mikee.png" alt="" />
+            <h4>Michael Jakobsen</h4>
+            <p>Innovation Lead</p>
+          </div>
+          <div>
+            <img src="/images/team/perks.png" alt="" />
+            <h4>David Perkins</h4>
+            <p>Marketing Guru</p>
+          </div>
+          <div>
+            <img src="/images/team/abbe.png" alt="" />
+            <h4>Abbie Shone</h4>
+            <p>Operations Director</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-
-    <!-- TEAM -->
-
-    <section id="team" class="team section-padding">
-      <header class="section-header">
-        <h4>Who we are</h4>
-        <h2>Our Professional Team</h2>
-        <p>We have a diverse and experienced leadership team who have been successfull in numerous different companies
-          and industries, giving us the perfect foundation to support our customers. </p>
-      </header>
-      <div class="flex-items">
-        <div>
-          <img src="/images/team/mikee.png" alt="">
-          <h4>Michael Jakobsen</h4>
-          <p>Innovation Lead</p>
-        </div>
-        <div>
-          <img src="/images/team/perks.png" alt="">
-          <h4>David Perkins</h4>
-          <p>Marketing Guru</p>
-        </div>
-        <div>
-          <img src="/images/team/abbe.png" alt="">
-          <h4>Abbie Shone</h4>
-          <p>Operations Director</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="contact flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="/images/home/contact.jpg" alt="people">
+      <!-- Contact -->
+      <section id="contact" class="contact flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="/images/home/contact.jpg" alt="people" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Request Callback</h2>
+              <form action="process.php" method="POST" class="callback-form">
+                <div class="form-control">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter Email"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="phone"></label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter Phone Number"
+                  />
+                </div>
+                <input type="submit" value="Send" id="submit" class="btn" />
+              </form>
+            </div>
           </div>
         </div>
-        <div class="column">
-          <div class="column-2 bg-light">
-            <h2>Request Callback</h2>
-            <form action="process.php" method="POST" class="callback-form">
-              <div class="form-control">
-                <label for="name"></label>
-                <input type="text" name="name" id="name" placeholder="Enter name">
-              </div>
-              <div class="form-control">
-                <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="Enter Email">
-              </div>
-              <div class="form-control">
-                <label for="phone"></label>
-                <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
-              </div>
-              <input type="submit" value="Send" id="submit" class="btn">
-            </form>
-          </div>
-        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="https://www.linkedin.com/company/executiveoperations"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+        <a href="https://twitter.com/MHJakobsen"
+          ><i class="fab fa-twitter fa-2x"></i
+        ></a>
       </div>
-    </section>
-  </main>
+      <p>Copyright &copy; 2020 - Executive Operations Ltd</p>
+    </footer>
 
-  <!-- Footer -->
+    <!-- JS script for header to fade in and out -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
 
-  <footer class="footer bg-dark">
-    <div class="social">
-      <a href="https://www.linkedin.com/company/executiveoperations"><i class="fab fa-linkedin fa-2x"></i></a>
-      <a href="https://twitter.com/MHJakobsen"><i class="fab fa-twitter fa-2x"></i></a>
-    </div>
-    <p>Copyright &copy; 2020 - Executive Operations Ltd</p>
-  </footer>
-
-
-  <!-- JS script for header to fade in and out -->
-  <script src="https://code.jquery.com/jquery-3.5.0.min.js"
-    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-  <script src="JS/lightbox.min.js"></script>
-  <script>
-    const navbar = document.getElementById('navbar');
-    let scrolled = false;
-
-    window.onscroll = function () {
-      if (window.pageYOffset > 100) {
-        navbar.classList.remove('top');
-        if (!scrolled) {
-          navbar.style.transform = 'translateY(-70px)';
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0px)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
         }
-        setTimeout(function () {
-          navbar.style.transform = 'translateY(0px)';
-          scrolled = true;
-        }, 200);
-      } else {
-        navbar.classList.add('top')
-        scrolled = false;
-      }
-    };
+      };
 
-    // Smooth Scrolling
+      // Smooth Scrolling
 
-    $('#navbar a').on('click', function (e) {
-      if (this.hash != '') {
-        e.preventDefault();
+      $("#navbar a").on("click", function (e) {
+        if (this.hash != "") {
+          e.preventDefault();
 
-        const hash = this.hash;
+          const hash = this.hash;
 
-        $('html, body').animate(
-          {
-            scrollTop: $(hash).offset().top - 100,
-          },
-          800
-        );
-      }
-    });
-  </script>
-</body>
-
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>

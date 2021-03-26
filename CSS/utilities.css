@@ -1,11 +1,11 @@
 /* Text Colors */
 
 .text-primary {
-  color: #FF894E;
+  color: #4e5851;
 }
 
 .text-secondary {
-  color: #4F6D7A;
+  color: #4f6d7a;
 }
 
 /* Button */
@@ -15,7 +15,7 @@
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
-  background-color: #FF894E;
+  background-color: #4e5851;
   border: none;
   border-radius: 5px;
 }
@@ -24,19 +24,23 @@
   opacity: 0.9;
 }
 
-.btn-primary, .bg-primary {
-  background: #FF894E;
+.btn-primary,
+.bg-primary {
+  background: #4e5851;
   color: #fff;
 }
-.btn-secondary, .bg-secondary {
-  background: #4F6D7A;
+.btn-secondary,
+.bg-secondary {
+  background: #4f6d7a;
   color: #fff;
 }
-.btn-dark, .bg-dark {
+.btn-dark,
+.bg-dark {
   background: #333;
   color: #fff;
 }
-.btn-light, .bg-light {
+.btn-light,
+.bg-light {
   background: #f4f4f4;
   color: #333;
 }
@@ -68,7 +72,6 @@
 .flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
-
 
 .flex-columns .row {
   display: flex;
@@ -148,9 +151,6 @@
   padding: 0 4px;
 }
 
-
-.flex-grid .column img{
+.flex-grid .column img {
   height: 50%;
 }
-
-
