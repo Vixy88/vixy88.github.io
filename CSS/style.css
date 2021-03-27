@@ -148,6 +148,11 @@ img {
   opacity: 0.7;
 }
 
+.team__image {
+  width: 250px;
+  margin: 25px;
+}
+
 .team img {
   border-radius: 5%;
 }
@@ -260,5 +265,10 @@ footer a:hover {
 
   #header__logo {
     border-bottom: none;
+  }
+
+  .team__image {
+    width: 250px;
+    margin-left: 20%;
   }
 }
