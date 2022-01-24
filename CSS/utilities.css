@@ -1,7 +1,7 @@
 /* Text Colors */
 
 .text-primary {
-  color: #4e5851;
+  color: #efbd1b;
 }
 
 .text-secondary {
@@ -15,7 +15,7 @@
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
-  background-color: #4e5851;
+  background-color: #efbd1b;
   border: none;
   border-radius: 5px;
 }
@@ -26,8 +26,8 @@
 
 .btn-primary,
 .bg-primary {
-  background: #4e5851;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 .btn-secondary,
 .bg-secondary {
@@ -66,6 +66,7 @@
 
 .flex-items > div {
   padding: 20px;
+  width: 100%;
 }
 
 /* Flex Columns */

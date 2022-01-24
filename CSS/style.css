@@ -46,7 +46,7 @@ img {
   color: white;
   opacity: 0.8;
   width: 100%;
-  height: 70px;
+  height: 90px;
   position: relative;
   top: 0px;
   padding: 0 30px;
@@ -64,7 +64,7 @@ img {
 }
 
 .navbar .header__button:hover {
-  border-bottom: #4e5851 2px solid;
+  border-bottom: #efbd1b 2px solid;
 }
 
 .navbar ul {
@@ -92,7 +92,7 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100%;
+  height: 80%;
   padding: 0 20px;
 }
 
@@ -113,7 +113,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .hero * {
@@ -137,7 +137,7 @@ img {
 }
 
 .icons i {
-  background-color: #4e5851;
+  background-color: #efbd1b;
   color: #fff;
   padding: 1rem;
   border-radius: 50%;
@@ -181,7 +181,7 @@ img {
 }
 
 .callback-form input:focus {
-  outline-color: #4e5851;
+  outline-color: #efbd1b;
 }
 
 .callback-form .btn {
@@ -228,7 +228,7 @@ img {
 }
 
 footer a:hover {
-  color: #4e5851;
+  color: #efbd1b;
 }
 
 .footer .social > * {
